@@ -1,5 +1,5 @@
 FROM ubuntu:15.10
-MAINTAINER srinigv
+MAINTAINER "srinigv" "srinigv@icloud.com"
 
 RUN apt-get update 
 
