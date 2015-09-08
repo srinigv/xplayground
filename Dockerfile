@@ -5,7 +5,7 @@ RUN apt-get update
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get install -y openssh-server xubuntu-desktop 
+RUN apt-get install -y openssh-server xubuntu-desktop openssl
 
 RUN add-apt-repository ppa:x2go/stable
 
